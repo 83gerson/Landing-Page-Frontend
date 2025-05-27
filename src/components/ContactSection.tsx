@@ -30,7 +30,7 @@ export const ContactSection = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3000/api/contact', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
