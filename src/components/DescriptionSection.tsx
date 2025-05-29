@@ -34,10 +34,16 @@ export const DescriptionSection = () => {
     icon: '🧈',
     name: 'Mantequilla',
     desc: 'Mantequilla fresca de leche de vaca'
-  }, {
-    icon: '🌿',
-    name: 'Hierbas',
-    desc: 'Mezcla de hierbas aromáticas locales'
+  },
+  {
+    icon: '🥬',
+    name: 'Lechuga',
+    desc: 'Lechuga fresca local'
+  },
+  {
+    icon: '🍅',
+    name: 'Tomate',
+    desc: 'Tomate fresco local'
   }];
   return <section id="descripcion" ref={sectionRef} className="py-16 md:py-24 bg-white w-full">
       <div className="container mx-auto px-4">
